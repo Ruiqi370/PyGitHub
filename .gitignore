@@ -57,3 +57,7 @@ dmypy.log
 # Pyre type checker
 .pyre/
 .idea/
+# .gitignore file
+
+# Ignore .env file
+.env
