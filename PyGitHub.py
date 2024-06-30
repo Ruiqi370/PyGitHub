@@ -4,7 +4,7 @@ from github import Github
 from github import Auth
 
 # using an access token
-auth = Auth.Token("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")
+auth = Auth.Token("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")
 
 # First create a Github instance:
 

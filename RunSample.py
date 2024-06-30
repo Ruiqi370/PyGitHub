@@ -11,3 +11,7 @@ from PyGitHub import g
 repositories = g.search_repositories(query='language:python')
 for repo in repositories:
     print(repo)
+
+repositories = g.search_repositories(query='good-first-issues:>3')
+for repo in repositories:
+   print(repo)
